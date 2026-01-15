@@ -32,6 +32,7 @@ import { findFilePath } from "@/modules/playground/lib";
 import { useWebContainer } from "@/modules/webcontainers/hooks/useWebContainer";
 import WebContainerPreview from "@/modules/webcontainers/components/webcontainer-preview";
 import ToggleAI from "@/modules/playground/components/toggle-ai";
+import { useAISuggestions } from "@/modules/playground/hooks/useAISuggestion";
 
 
 const MainPlaygroundPage = () => {
